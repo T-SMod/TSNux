@@ -1,5 +1,5 @@
-const alllteLog = console
-let TSNuxConsole = []
+window.alllteLog = console
+window.TSNuxConsole = []
 console = {
   "log": function(a) { alllteLog.log(a), TSNuxConsole.push({ "type": "log", "text": a }) },
   "warn": function(a) { alllteLog.warn(a), TSNuxConsole.push({ "type": "warn", "text": a }) },
