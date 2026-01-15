@@ -1,4 +1,4 @@
-function createWindow(options) {
+function TSNuxUiWndows(options) {
   const win = document.createElement('div');
   win.className = 'tsnux-window';
   win.style.cssText = `
