@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/TSNux/assets/img/desktop-bg.svg');
+  background-size: cover;      /* Растянуть на весь экран */
+  background-position: center; /* Отцентрировать */
+  background-repeat: no-repeat; /* Не повторять */
+  height: 100vh;
+  width: 100vw;
+}
