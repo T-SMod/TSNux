@@ -1,5 +1,6 @@
 window.TSNux = {
   "ui": {},
   "kernel": {},
-  "libs": {}
+  "libs": {},
+  "events": {}
 }
