@@ -1,9 +1,9 @@
-let TSNuxUI = {}
+TSNux.ui = {}
 
 async function loadComponent(name, path) {
   try {
     const module = await import(path);
-    TSNuxUI[name] = module.default;
+    TSNux.ui[name] = module.default;
     console.log(`Компонент ${name} загружен`);
   } catch (error) {
     console.error(`Ошибка загрузки ${name}:`, error);
