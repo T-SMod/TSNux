@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "id": "exampleapp",
+  "creators": [
+    { "name": "SHAMAN2016", "role": "creator", "link": "https://shaman2016scratch.github.io" }
+  ],
+  "license": "MIT"
+}
